@@ -7,4 +7,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="PrimaryAppBarLayout" parent="Widget.MaterialComponents.AppBarLayout.Primary">
+        <item name="android:background">?attr/colorSurface</item>
+    </style>
+
+    <style name="ToolbarBackIcon" parent="Widget.MaterialComponents.Toolbar">
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <item name="homeAsUpIndicator">@drawable/vector_back_button</item>
+    </style>
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@null</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/ic_launcher_foreground</item>
+    </style>
+
 </resources>
